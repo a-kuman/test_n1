@@ -66,11 +66,14 @@ Order By
 
 Результат:
 -----------------------
-|d_order  |sum_service|
+d_order    sum_service
 -----------------------
 08.02.2020  3960
+
 07.02.2020   580
+
 09.02.2020   380
+
 
 
 2) Сделаем запрос - самая выгодная машина для автосервиса (sum_brand_model.sql):
@@ -99,11 +102,15 @@ Order By
 
 Результат:
 -----------------------------------
-|brand	| model  | Sum_sum_service|
+brand	model  Sum_sum_service
 -----------------------------------
  Geely	 254	             3960
- BMW	   X5	                420
+ 
+ BMW	 X5	                  420
+ 
  Lifan	 F56	              380
- Ford	   Mustang	          160
+ 
+ Ford	 Mustang	          160
+ 
 
 
